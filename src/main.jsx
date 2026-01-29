@@ -1,0 +1,20 @@
+import React from "react"
+import ReactDOM from "react-dom/client"
+import App from "./App"
+import "./index.css"
+
+import { AuthProvider } from "./context/AuthContext"
+import { DistributorProvider } from "./context/DistributorContext"
+import { OrdersProvider } from "./context/OrdersContext"
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <AuthProvider>
+      <DistributorProvider>
+        <OrdersProvider>
+          <App />
+        </OrdersProvider>
+      </DistributorProvider>
+    </AuthProvider>
+  </React.StrictMode>
+)

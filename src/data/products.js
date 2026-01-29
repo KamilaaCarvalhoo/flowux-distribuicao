@@ -1,0 +1,77 @@
+export const products = [
+  // 🍔 BURGERS
+  {
+    id: 1,
+    name: "Flow Burger",
+    description: "Pão brioche amanteigado, hambúrguer artesanal, cheddar derretido e molho Flow.",
+    price: 28.9,
+    category: "Burger",
+    popular: true,
+  },
+  {
+    id: 2,
+    name: "Cheese Bacon",
+    description: "Hambúrguer suculento, cheddar duplo e bacon crocante com maionese da casa.",
+    price: 32.9,
+    category: "Burger",
+    popular: true,
+  },
+  {
+    id: 3,
+    name: "Double Smash",
+    description: "Dois smash burgers prensados, queijo americano e molho especial.",
+    price: 36.9,
+    category: "Burger",
+    popular: false,
+  },
+  {
+    id: 4,
+    name: "BBQ Supreme",
+    description: "Burger alto, cheddar, cebola caramelizada e barbecue defumado.",
+    price: 34.9,
+    category: "Burger",
+    popular: false,
+  },
+  {
+    id: 5,
+    name: "Flow Chicken",
+    description: "Frango empanado crocante, queijo, alface e molho especial.",
+    price: 29.9,
+    category: "Burger",
+    popular: false,
+  },
+
+  // 🥤 BEBIDAS
+  {
+    id: 6,
+    name: "Coca-Cola Lata",
+    description: "350ml • bem gelada",
+    price: 6.9,
+    category: "Bebida",
+    popular: true,
+  },
+  {
+    id: 7,
+    name: "Guaraná Antarctica",
+    description: "350ml • refrescante",
+    price: 6.9,
+    category: "Bebida",
+    popular: false,
+  },
+  {
+    id: 8,
+    name: "Suco Natural",
+    description: "Laranja ou limão • 400ml",
+    price: 9.9,
+    category: "Bebida",
+    popular: false,
+  },
+  {
+    id: 9,
+    name: "Milkshake Premium",
+    description: "Chocolate, morango ou baunilha • 500ml",
+    price: 14.9,
+    category: "Bebida",
+    popular: true,
+  },
+]
